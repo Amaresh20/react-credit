@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side{
+  height: 100vh;
+  position: relative;
+  background-color: radial-gradient(12.04% 28.41% at 52.64% 24.47%, rgba(78, 26, 69, 0.20) 0%, rgba(69, 20, 43, 0.20) 14.29%, rgba(69, 20, 43, 0.20) 28.57%, rgba(61, 14, 18, 0.20) 42.86%, rgba(61, 13, 15, 0.20) 57.14%, rgba(61, 13, 15, 0.20) 71.43%, rgba(61, 13, 15, 0.20) 85.71%, rgba(60, 13, 13, 0.20) 100%), linear-gradient(151deg, rgba(4, 31, 27, 0.98) 17.12%, #380C4A 23.31%, #3B0E46 25.38%, #3D0F42 27.72%, #441436 31.58%, #33254E 35.02%, #2B2D59 38.60%, #292654 41.52%, #271F4F 44.22%, #240D37 50.90%, #22052D 58.96%, #22052D 80.13%, #22052D 96.80%, #22052D 96.81%);
+}
+
+.card-front {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+
+.card-edit {
+  position: relative;
+}
+
+.card-digits {
+  display: flex;
+  position: absolute;
+  top: 130px;
+  gap: 20px;
+  color: white;
+  font-size: 26px;
+  left: 40px;
+  letter-spacing: 5px;
+}
+
+.card-name {
+  width: 350px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: space-between;
+  left: 40px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.card-back {
+  position: absolute;
+  left: 180px;
+  top: 300px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main form {
+  width: 280px;
+}
+
+form input {
+  height: 30px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  outline: none;
+  background-color: #D9D9D9;
+}
+
+form label {
+  font-size: 10px;
+  letter-spacing: 1.86px;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.mmyy {
+  display: flex;
+  gap: 15px;
+}
+
+.mmyy input {
+  width: 60px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 22px;
+}
+
+form button {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #220930;
+  color: white;
+  border-radius: 10px;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+}
